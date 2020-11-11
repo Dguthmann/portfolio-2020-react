@@ -3,23 +3,46 @@ import React from "react";
 function About() {
   return (
 
-    <div>
-      <div className="hero text-center" style={{ backgroundImage: "url('https://i.imgur.com/MMC0Dko.jpg')", height: "45vh" }}>
-        {/* <img src="https://en.wikipedia.org/wiki/Welsh_Corgi#/media/File:ThreeTimeAKCGoldWinnerPembrookeWelshCorgi.jpg"/> */}
-        <h1>Pupster</h1>
-
-
-        <h2>They're the Good Boys and Girls</h2>
+    <section className="container">
+      <div className="row">
+        <div className="col-md-12">
+          <h1 className="section-header">About Me</h1>
+          <hr />
+        </div>
       </div>
-      <div>
-        <h1>Welcome To Pupster</h1>
-        <p>
-          Heckin good boys much ruin diet shoob corgo very good spot, fluffer much ruin diet. Long woofer heckin angery woofer pats, wow such tempt. Woofer heckin big ol pupper what a nice floof, length boy borkdrive much ruin diet puggo, pupperino big ol. he made many woofs wow very biscit heckin. H*ck long bois fat boi you are doing me a frighten stop it fren, very jealous pupper pats.
-
-          Sub woofer very hand that feed shibe you are doing me the shock very good spot stop it fren, woofer puggorino ruff. Vvv many pats lotsa pats long bois adorable doggo many pats dat tungg tho I am bekom fat, heckin angery woofer much ruin diet super chub vvv long water shoob super chub. Long doggo big ol adorable doggo puggorino shoober ruff, shooberino ruff you are doing me the shock clouds. Maximum borkdrive heckin doggo doggorino ruff, what a nice floof pupper h*ck. Very good spot heckin blep heckin puggorino heckin good boys and girls super chub maximum borkdrive, pupperino boof long water shoob puggorino heckin angery woofer. Heck shoober heckin good boys shoober, waggy wags you are doing me the shock. Shooberino big ol pupper bork blep heck heckin good boys and girls, pupper you are doin me a concern length boy heckin ruff doggo, puggorino long doggo doing me a frighten I am bekom fat.
-      </p>
+      <div className="row">
+        <div className="col-md-12">
+          <img src="images/dguthmann.jpg" alt="David Guthmann" align="Left"
+            style={{ margin: "0% 1% 1% 1%" }} />
+          <p>
+            My name is David Guthmann.  I was born, raised, and still live in the city of Omaha, Nebraska.  I grew up watching the cornhuskers and graduated from the University of Nebraska-Lincoln for a Bachelor's Degree of Science in Electrical in 2011.  During my years in college, I grabbed a basic background in coding specifically mainly in C as many microprocessors work with that.  Coming out of college I worked for a time in signal design, which works by sending electrical code on the train tracks to determine safety signals and crossing equipment.  The physical "houses" is where all the equipment is stored and they could be as new as microprocessors controlling the signals to as old as relay circuits.  Looking at those massive drawing of realys and following each boolean to their result was intimidating, but the interesting thing is trying to think of a modern program and how you could do it with nothing but relays.  This really taught me to adapt to whatever is thrown at you.
+                </p>
+        </div>
       </div>
-    </div>
+
+      <div className="row">
+        <div className="col-md-12">
+          <p>
+            My other main passion and the reason I got into coding was video games.  I have played different types over the years, but mmos have always held a close point for me.  The basics of macro writing in that game is coding on a very small and approachable scale.  It was also a childhood dream to become a designer who makes them.  I think that natural fit of see what I want to do and figuring out the tool that I'm using to create it into reality is one of my best qualities.  At the moment, I am currently a student of University of Washington's Coding Bootcamp and am open to new professional opportunities anywhere in the United States.
+                </p>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-md-1"></div>
+        <div className="col-md-4">
+          <a href={"https://github.com/Dguthmann"} target="_blank">My Github Profile</a>
+        </div>
+        <div className="col-md-4">
+          <a href={"https://www.linkedin.com/in/david-guthmann-2351b838/"} target="_blank">My Linked In Page</a>
+        </div>
+        <div className="col-md-3">
+          <a href={"other/DavidGuthmann-Resume.pdf"} target="_blank">My Resume</a>
+        </div>
+      </div>
+
+
+
+    </section>
   );
 }
 
