@@ -1,6 +1,4 @@
 import React from "react";
-import DiscoverCard from "../DiscoverCard";
-import API from "../../utils/API";
 import Project from "../Project";
 
 class Discover extends React.Component {
@@ -14,10 +12,10 @@ class Discover extends React.Component {
           </div>
         </div>
         <div className="row">
-          <Project projectImage="images/venuss.png" 
+          <Project projectImage="/images/venuss.png" 
           liveUrl="https://ajm5099.github.io/Music-Discovery/"
           liveTag="VenU Music Discovery Live Site"
-          gitUrl="https://github.com/ajm5099/Music-Discovery" 
+          gitUrl="https://github.com/ajm5099/Music-Discovery"
           gitTag="VenU Music Discovery Repository"
           />
           <Project projectImage="images/gerome-logo_readme.png"
@@ -36,9 +34,9 @@ class Discover extends React.Component {
           />
           <Project projectImage="images/katsu-screenshot.png"
           liveUrl="https://katsu-korokke.herokuapp.com/"
-          liveTag="Password Generator Live Site" 
+          liveTag="Katsu Korroke Live Site" 
           gitUrl="https://github.com/Dguthmann/katsu-korokke" 
-          gitTag="Password Generator Repository"
+          gitTag="Katsu Korokke Repository"
           />
         </div>
         <div className="row">
