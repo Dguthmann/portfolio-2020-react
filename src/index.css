@@ -5,9 +5,80 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  background: url("https://image.freepik.com/free-photo/cheese-assortment-with-copy-space_23-2148432599.jpg");
+  background-size: cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* content block red line */
+
+hr{
+  border-color: red;
+}
+
+/* adding on hover effect to change to coloured when hovered */
+img{
+  filter: grayscale();
+}
+
+img:hover{
+  filter:none;
+}
+
+/* footer setting to bind it to bot of page, and some formatting */
+
+footer {
+  height: 5%;
+  width: 100%;
+  border-top: 1vh solid green;
+  background-color: white;
+  /* border-bottom: 1vw solid white;    */
+  padding: 1vh 1vw 1vh 1vw;
+  clear: both;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+
+
+.navbar-brand{
+  padding: 0.5%;
+  background-color: green   
+}
+
+.container{
+  background-color: black;
+  color: white;
+  width: 70vw;
+  padding: 2%;
+  margin: 5% 28% 5% 2%;
+}
+
+
+.section-header{
+  font-family: 'Times New Roman', Times, serif;
+  color: gold;
+}
+
+.content{
+  float: none;
+  width: 100%;
+}
+
+
+/* scaling to allow for better mobile look*/
+
+@media screen and (max-width:700px){
+
+  .container{
+      width: 90vw;
+      margin: 0 auto;
+  }
+
 }
