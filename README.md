@@ -2,7 +2,7 @@
 ### Author: David Guthmann
 
 github: https://github.com/Dguthmann/  
-livesite: https://dguthmann.github.io/portfolio-2020/
+livesite: https://portfolio-2020-react.herokuapp.com/
 
 ## List of Contents
 
@@ -60,9 +60,9 @@ This is updated to use the react framework.
 
 ## Screenshot of Website
 
-![Site Screenshot](images/screenshotindex.png)  
+![Site Screenshot](public/images/screenshotindex.png)  
   
-![Site Screenshot](images/screenshotport.png)
+![Site Screenshot](public/images/screenshotport.png)
 
 ## Resources Used
 
